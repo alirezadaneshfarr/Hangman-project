@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(51, 50, 51);
+}
+
+* {
+    font-family: fantasy;
+}
+
+.name {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 25px;
+    transition: .6s;
+    animation: logo 1s alternate infinite;
+    text-shadow: 1px 0 6px black;
+}
+
+@keyframes logo {
+    from {
+        color: rgb(144, 55, 228);
+    }
+    to {
+        color: rgb(27, 8, 44);
+    }
+}
+
+.alefba {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.alefba div {
+    border: 2px solid rgb(144, 55, 228);
+    width: 90px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 15px;
+    transition: .7s;
+}
+
+.alefba div:hover {
+    background-color: rgb(144, 55, 228);
+    color: #fff;
+    cursor: pointer;
+}
+
+.asili,
+.adam {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.asili {
+    letter-spacing: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    transform: translateY(35px);
+}
+
+.finish {
+    animation: logo 1s alternate infinite;
+    text-align: center;
+    transform: translateY(55px);
+    visibility: hidden;
+}

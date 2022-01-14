@@ -1,5 +1,6 @@
 body {
     background-color: rgb(51, 50, 51);
+    font-family: fantasy;
 }
 
 * {
@@ -50,7 +51,7 @@ body {
 .asili,
 .adam {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 
 .asili {
@@ -58,11 +59,22 @@ body {
     font-size: 14px;
     font-weight: bolder;
     transform: translateY(35px);
+    color: #fff;
 }
 
-.finish {
+.finish p {
     animation: logo 1s alternate infinite;
     text-align: center;
     transform: translateY(55px);
     visibility: hidden;
+}
+
+.finish #win {
+    transform: translateY(-2px);
+}
+
+.alefba div.used {
+    background-color: rgb(58, 14, 99);
+    color: #fff;
+    opacity: 0.5;
 }
